@@ -1,0 +1,133 @@
+================================================================================
+PE CATALOG: msbus/original/ex  (21 binaries)
+================================================================================
+
+================================================================================
+  NE16
+================================================================================
+
+  [BANDDLL.DLL]  5,216 bytes
+  SHA1: 9444a864f38bcdcaaf301d2666c8143a91abc223
+  NE DLL (Windows), linker 5.50, 2 segments, 3 module refs
+  module: BANDDLL
+  read with: tools/ne/ne_parse.py
+
+  [KIDSCAT/CATALOG.EXE]  33,295 bytes
+  SHA1: 6a4004f560aa510dc5df21fbad303e313a12243f
+  NE EXE (Windows), linker 5.10, 7 segments, 1 module refs
+  module: MARK0615
+  read with: tools/ne/ne_parse.py
+
+  [KIDSCAT/KIDSCAT.EXE]  11,264 bytes
+  SHA1: 1c348e607b9189d04c81e3ef8378ad90970c271f
+  NE EXE (Windows), linker 5.50, 2 segments, 4 module refs
+  module: MSMCSTUB
+  read with: tools/ne/ne_parse.py
+
+  [KIDSCAT/PICCLIP.VBX]  15,840 bytes
+  SHA1: da67d8b7c42b69b807721dbf7b03079c0cd1c763
+  NE DLL (Windows), linker 5.31, 7 segments, 3 module refs
+  module: PICCLIP
+  read with: tools/ne/ne_parse.py
+
+  [KIDSCAT/SPUSH.VBX]  22,532 bytes
+  SHA1: 7086bc725ad63df76b7ea64b710e91a747a87ee3
+  NE DLL (Windows), linker 5.30, 3 segments, 3 module refs
+  module: SPUSH
+  read with: tools/ne/ne_parse.py
+
+  [KIDSCAT/VBRUN300.DLL]  398,416 bytes
+  SHA1: eb4dad28be190a37b46b9ee0dfbc0b02d1a5a71b
+  NE DLL (Windows), linker 5.31, 101 segments, 5 module refs
+  module: VBRUN300
+  read with: tools/ne/ne_parse.py
+
+  [KIDSCAT/VER.DLL]  9,008 bytes
+  SHA1: 77d3e4d7bbaaae0b8c8ca383efe574807c6e729c
+  NE DLL (Windows), linker 5.20, 6 segments, 4 module refs
+  module: VER
+  read with: tools/ne/ne_parse.py
+
+  [MIDIDLL.DLL]  4,368 bytes
+  SHA1: 996c137ce544860debb39292ef4966a9b3de9397
+  NE DLL (Windows), linker 5.50, 2 segments, 2 module refs
+  module: MIDIDLL
+  read with: tools/ne/ne_parse.py
+
+  [MSBHUMAN/0/BD2.EXE]  14,960 bytes
+  SHA1: 2801d3821ea503f042dc697a780ee33566cd02d8
+  NE EXE (Windows), linker 5.50, 2 segments, 5 module refs
+  module: FEEDER
+  read with: tools/ne/ne_parse.py
+
+  [MSBHUMAN/0/BD7.EXE]  23,040 bytes
+  SHA1: e394d3ae3ef736f075cfea29210e136d3adc4c06
+  NE EXE (Windows), linker 5.50, 2 segments, 4 module refs
+  module: MSBSNOOP
+  read with: tools/ne/ne_parse.py
+
+  [MSBHUMAN/0/BD9.EXE]  7,008 bytes
+  SHA1: f7c754718a9d7294b86dad5d57d219f297e073a9
+  NE EXE (Windows), linker 5.50, 2 segments, 4 module refs
+  module: GOBAND
+  read with: tools/ne/ne_parse.py
+
+  [MSBHUMAN/BANDDLL.DLL]  5,216 bytes
+  SHA1: 9444a864f38bcdcaaf301d2666c8143a91abc223
+  NE DLL (Windows), linker 5.50, 2 segments, 3 module refs
+  module: BANDDLL
+  read with: tools/ne/ne_parse.py
+
+  [MSBHUMAN/MIDIDLL.DLL]  4,368 bytes
+  SHA1: 996c137ce544860debb39292ef4966a9b3de9397
+  NE DLL (Windows), linker 5.50, 2 segments, 2 module refs
+  module: MIDIDLL
+  read with: tools/ne/ne_parse.py
+
+  [MSBHUMAN/MSBHUMAN.EX_]  166,080 bytes
+  SHA1: fe2bb2b60c2e4a944d7d2219d8ed82991cd9514f
+  NE EXE (Windows), linker 5.50, 8 segments, 8 module refs
+  module: MSBHUMAN
+  read with: tools/ne/ne_parse.py
+
+  [MSBHUMAN/SCHED.DLL]  8,704 bytes
+  SHA1: e7aac31569bec4a6228815fcc77d326a12a1066a
+  NE DLL (Windows), linker 5.10, 2 segments, 3 module refs
+  module: sched
+  read with: tools/ne/ne_parse.py
+
+  [SCHED.DLL]  8,704 bytes
+  SHA1: e7aac31569bec4a6228815fcc77d326a12a1066a
+  NE DLL (Windows), linker 5.10, 2 segments, 3 module refs
+  module: sched
+  read with: tools/ne/ne_parse.py
+
+  [SETUP.EXE]  167,744 bytes
+  SHA1: 641027066061cc17cb246d491544c20c9a3a9cef
+  NE EXE (Windows), linker 5.50, 8 segments, 9 module refs
+  module: SETUP
+  read with: tools/ne/ne_parse.py
+
+================================================================================
+  DOS/OTHER
+================================================================================
+
+  [DRIVERS/S3-801.EXE]  564,085 bytes
+  SHA1: b9d4a545d7b6c9b6fc36fbeb46b323b14fe28fef
+  MZ -- real-mode DOS executable
+  read with: tools/disasm/decode16.py
+
+  [DRIVERS/S3-924.EXE]  1,090,720 bytes
+  SHA1: 20323d0df7ce4b86c655b986b1fe89ad4ff40eb1
+  MZ -- real-mode DOS executable
+  read with: tools/disasm/decode16.py
+
+  [DRIVERS/S3-928.EXE]  550,819 bytes
+  SHA1: e3b099187a39b4503ad64351fb9f256fccef30f2
+  MZ -- real-mode DOS executable
+  read with: tools/disasm/decode16.py
+
+  [DRIVERS/SVGA.EXE]  432,405 bytes
+  SHA1: cb71dbd2fb95aa35517858e780bb0d918fb88395
+  MZ -- real-mode DOS executable
+  read with: tools/disasm/decode16.py
