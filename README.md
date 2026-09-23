@@ -9,6 +9,9 @@ year, same NE/Win16 shape.
 
 ## Project Status: **P0 complete, P1 not started**
 
+Reconnaissance only. Nothing has been lifted, and nothing builds or runs yet.
+What is here is the P0 write-up and `analysis/catalog.txt`.
+
 ---
 
 ## What P0 found
@@ -58,8 +61,10 @@ VBRUN300 import means a different toolchain entirely.
 
 ## Where it goes next (P1)
 
-1. `ne/ne_parse.py` → `ne_decode.py` → `ne_xref.py` over the three `BD*.EXE`
-   and `BANDDLL.DLL`. Six segments total; this should be a short run.
+1. `tools/ne/ne_parse.py` → `ne_decode.py` → `ne_xref.py` over the three
+   `BD*.EXE` and `BANDDLL.DLL`. Six segments total; this should be a short run.
+   Lifting goes through `tools/lift/ne_lift.py` and links against pcrecomp's
+   `runtime/win16/`, which is upstream now.
 2. Work out what `GOBAND`, `FEEDER` and `MSBSNOOP` each are. The module names
    suggest a loader, a content feeder and a scene player, which would mean the
    engine is smaller still than 60 KB and the rest is per-scene glue.
@@ -81,3 +86,7 @@ msbus/
 
 The Magic School Bus Explores the Human Body © 1994 Microsoft Corporation /
 Scholastic Inc. This project neither contains nor distributes any part of it.
+
+The code and documentation here are MIT; [LICENSE](LICENSE) spells out that
+the grant stops at our own work and does not reach the game or anything
+lifted from it.
